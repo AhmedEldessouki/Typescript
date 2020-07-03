@@ -10,10 +10,16 @@ class Point {
   y: number;
   //metha
   draw() {
-    //logic
+    //tsc main.ts| node main.js
+    console.log("x: " + this.x + " y: " + this.y);
   }
 
   getDistance(another: Point) {
     //logic
   }
 }
+
+let point = new Point();
+point.x = 1;
+point.y = 2;
+point.draw();
